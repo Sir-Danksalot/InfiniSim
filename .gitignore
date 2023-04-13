@@ -2,6 +2,11 @@
 # Python virtual environment for DFU images
 .venv/
 
+# Node.js package files
+package.json
+package-lock.json
+/node_modules
+
 # CMake
 cmake-build-*
 cmake-*/
@@ -12,6 +17,8 @@ Makefile
 build
 _build*/
 tools
+
+cMakeCommand.sh
 
 # Resulting binary files
 *.a
