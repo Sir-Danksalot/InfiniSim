@@ -19,6 +19,7 @@ _build*/
 tools
 
 cMakeCommand.sh
+buildCommand.sh
 
 # Resulting binary files
 *.a
